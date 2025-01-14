@@ -31,3 +31,5 @@ events = list(filter(notAQuake, data['features']))
 print(f"Total events: {len(events)}")
 for i in range(0, 10):
     print(events[i]['properties']['type'])
+
+print("merge test")
